@@ -1,0 +1,63 @@
+h1 {
+    margin-top: 6%;
+    margin-bottom: 0%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "DharmaGothicEExBold", "Arial Narrow", Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.img-logo {
+    width: 25%;
+    height: 50px;
+}
+
+.card {
+    margin-top: 5%;
+}
+
+.margen {
+    background-color: #3e4551;
+    margin-top: 10%;
+    color: white;
+}
+
+.margen a {
+    text-decoration: none;
+}
+
+
+.imatge:hover {
+    opacity: 0.8;
+    transition: all .9s ease;
+}
+
+.imatge {
+    transition: all .9s ease;
+}
+
+
+@media (max-width: 991px) {
+
+    .imgres {
+        width: 20%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    h1 {
+        font-size: 120%;
+    }
+
+    .imgres {
+        width: 35%;
+    }
+
+}
+
+

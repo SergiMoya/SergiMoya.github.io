@@ -1,0 +1,25 @@
+@media print {
+    nav{
+        display:none;
+     }
+     body{
+         color: black;
+     }
+     a{
+         color: black;
+     }
+     .btn-danger{
+         background-color: transparent;
+     }
+     footer{
+         display: none;
+     }
+
+     #carousel-example-2{
+         display: none;
+     }
+     .card-body{
+         font-size: 200%;
+     }
+
+} 
